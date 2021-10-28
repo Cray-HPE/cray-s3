@@ -1,4 +1,18 @@
-apiVersion: v1
+apiVersion: v2
 name: cray-s3
-description: Exposes Ceph Rados gateways
 version: 1.0.0
+description: Exposes Ceph Rados gateways
+keywords:
+  - cray-s3
+home: https://github.com/Cray-HPE/cray-s3
+appVersion: 1.0.0
+annotations:
+  artifacthub.io/changes: |
+    - kind: security
+      description: Updated images to CSM patched versions
+      links:
+        - name: Github Issue
+          url: https://github.com/Cray-HPE/cray-s3/issues/2
+        - name: Github PR
+          url: https://github.com/Cray-HPE/cray-s3/pull/3
+  artifacthub.io/license: MIT
