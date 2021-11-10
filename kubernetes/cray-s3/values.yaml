@@ -13,7 +13,7 @@ service:
   type: LoadBalancer
   annotations:
     external-dns.alpha.kubernetes.io/hostname: s3.local
-    metallb.universe.tf/address-pool: customer-access
+    metallb.universe.tf/address-pool: customer-management
   # Important that service port is the same as RGW port since the external
   # hostname is expected to be aliased to the RGW endpoints in /etc/hosts
   # on NCNs.
