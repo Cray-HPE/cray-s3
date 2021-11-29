@@ -5,6 +5,9 @@ description: Exposes Ceph Rados gateways
 keywords:
   - cray-s3
 home: https://github.com/Cray-HPE/cray-s3
+maintainers:
+  - name: kimjensen-hpe
+  - name: bklei
 annotations:
   artifacthub.io/changes: |
     - kind: security
