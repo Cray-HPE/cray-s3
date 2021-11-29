@@ -18,4 +18,3 @@ service:
   # hostname is expected to be aliased to the RGW endpoints in /etc/hosts
   # on NCNs.
   port: 8080
-
